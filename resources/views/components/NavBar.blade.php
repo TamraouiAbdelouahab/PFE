@@ -1,5 +1,5 @@
 <div class="flex gap-10 bg-white w-full min-h-screen">
-            <div class="w-1/6 bg-white rounded p-3 py-10 shadow-lg">
+            <div class=" bg-white rounded p-3 py-10 shadow-lg min-w-fit max-w-fit">
                 <ul class="space-y-2 text-sm">
                     <li>
                         <a href="{{ route('welcome') }}" class="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium hover:bg-gray-200 focus:shadow-outline stroke-black hover:text-blue-600 hover:stroke-blue-600">
@@ -8,7 +8,7 @@
                                     <path d="M16 29.7501C16 29.7501 11.3902 29.1251 8.46168 29.1251C7.06672 29.1251 5.30766 29.2669 3.84789 29.4154C2.33923 29.5689 1 28.3982 1 26.8818V7.63073C1 6.63972 1.58477 5.73384 2.53671 5.45833C3.05744 5.30762 3.66363 5.16505 4.27828 5.09119M16 29.7501C16 29.7501 20.4565 29.1251 23.385 29.1251C24.8094 29.1251 26.6496 29.2729 28.1642 29.4248C29.6686 29.5756 31 28.4065 31 26.8945V7.5586C31 6.60464 30.4559 5.72557 29.5382 5.4651C29.0945 5.33918 28.5749 5.22215 28.0153 5.15491M16 29.7501V25.9949M16 25.9949C16 25.9949 12.0928 25.3751 9.75 25.3751C8.93174 25.3751 7.9989 25.4509 7.13132 25.5495C5.56686 25.7273 4.13575 24.5307 4.14729 22.9562L4.27828 5.09119M16 25.9949C16 25.9949 19.7032 25.3751 22.046 25.3751C22.9168 25.3751 23.9455 25.4697 24.8945 25.5886C26.4496 25.7834 27.8847 24.6091 27.8953 23.0418L28.0153 5.15491M16 25.9949V1.625M4.27828 5.09119V3.72424C4.27828 2.51034 5.15035 1.47092 6.35372 1.31141C7.52981 1.15553 8.99091 1 10.1391 1C12.4409 1 16 1.625 16 1.625M28.0153 5.15491V3.73319C28.0153 2.51534 27.138 1.474 25.9303 1.31695C24.7175 1.15923 23.1983 1 22.0077 1C19.6489 1 16 1.625 16 1.625"  stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </span>
-                            <span class="text-base">Books</span>
+                            <span class="text-base hidden lg:block">Books</span>
                         </a>
                     </li>
                     <li>
@@ -33,7 +33,7 @@
                                     </defs>
                                 </svg>
                             </span>
-                            <span class="text-base">Copybooks</span>
+                            <span class="text-base hidden lg:block">Copybooks</span>
                         </a>
                     </li>
                     <li>
@@ -70,7 +70,7 @@
                                     </defs>
                                 </svg>
                             </span>
-                            <span class="text-base">School Supplies</span>
+                            <span class="text-base hidden lg:block">School Supplies</span>
                         </a>
                     </li>
                 </ul>

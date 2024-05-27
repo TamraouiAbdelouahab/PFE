@@ -54,7 +54,7 @@
                         Sign up
                     </button>
                 </form>
-                <p class="my-8">Need an account? <a href="{{ asset('SignUp')}}"
+                <p class="my-8">Need an account? <a href="{{ asset('Login')}}"
                         class="text-blue-500 hover:text-blue-700 font-semibold">Log in</a></p>
             </div>
         </div>

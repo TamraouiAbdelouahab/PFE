@@ -15,7 +15,7 @@
 		<ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
 			<li><a class="text-sm text-black font-semibold hover:text-white hover:bg-blue-400 py-2 px-6 rounded-xl" href="{{ asset('Home')}}">Home</a></li>
 			<li><a class="text-sm text-black font-semibold hover:text-white hover:bg-blue-400 py-2 px-6 rounded-xl" href="#">About Us</a></li>
-			<li><a class="text-sm text-black font-semibold hover:text-white hover:bg-blue-400 py-2 px-6 rounded-xl" href="#">Contact Us</a></li>
+			<li><a class="text-sm text-black font-semibold hover:text-white hover:bg-blue-400 py-2 px-6 rounded-xl" href="{{ asset('Contact')}}">Contact Us</a></li>
 			<li><a class="text-sm text-black font-semibold hover:text-white hover:bg-blue-400 py-2 px-6 rounded-xl" href="#">Reserve List</a></li>
 		</ul>
 		<a href="{{ asset('Login')}}"  class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-blue-400 text-sm hover:text-white hover:fill-white text-gray-900 font-bold  rounded-xl transition duration-200">
@@ -52,7 +52,7 @@
 						<a class="block p-4 text-sm font-semibold text-black hover:bg-blue-400 hover:text-white rounded" href="#">About Us</a>
 					</li>
 					<li class="mb-1">
-						<a class="block p-4 text-sm font-semibold text-black hover:bg-blue-400 hover:text-white rounded" href="#">Contact Us</a>
+						<a class="block p-4 text-sm font-semibold text-black hover:bg-blue-400 hover:text-white rounded" href="{{ asset('Contact')}}">Contact Us</a>
 					</li>
 					<li class="mb-1">
 						<a class="block p-4 text-sm font-semibold text-black hover:bg-blue-400 hover:text-white rounded" href="#">Reserve List</a>

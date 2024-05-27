@@ -26,3 +26,6 @@ Route::get('/Login', function () {
 Route::get('/SignUp', function () {
     return view('SignUp');
 })->name("SignUp");
+Route::get('/Contact', function () {
+    return view('ContactUs');
+})->name("Contact");
