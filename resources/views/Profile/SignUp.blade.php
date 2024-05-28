@@ -1,4 +1,14 @@
-<section class="flex flex-col md:flex-row h-screen items-center mt-10">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    @vite('resources/css/app.css')
+</head>
+<body>
+    <x-Header/>
+    <section class="flex flex-col md:flex-row h-screen items-center mt-10">
         <div
             class="bg-white p-4 w-full md:max-w-md lg:max-w-full md:mx-auto md:w-1/2 xl:w-1/2 px-6 lg:px-16 xl:px-12 flex justify-center">
             <div class="w-full h-100">
@@ -6,44 +16,44 @@
                 <form class="mt-6" action="#" method="POST">
                     <div class="flex justify-between my-4">
                         <div class="w-1/2">
-                            <label class="block text-gray-700" for="fname">First name</label>
-                            <input type="text" name="fname" id="fname" placeholder="Enter First name"
+                            <label class="block text-gray-700">First name</label>
+                            <input type="text" name="" id="" placeholder="Enter First name"
                                 class="w-11/12 px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                 autofocus autocomplete required>
                         </div>
                         <div class="w-1/2 flex flex-col items-end">
-                            <label class="block text-gray-700 w-11/12" for="lname">Last name</label>
-                            <input type="text" name="lname" id="lname" placeholder="Enter Last name"
+                            <label class="block text-gray-700 w-11/12">Last name</label>
+                            <input type="text" name="" id="" placeholder="Enter Last name"
                                 class="w-11/12 px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                 autofocus autocomplete required>
                         </div>
                     </div>
                     <div class="my-4">
                         <div>
-                            <label class="block text-gray-700" for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Enter Email"
+                            <label class="block text-gray-700">Email</label>
+                            <input type="email" name="" id="" placeholder="Enter Email"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                 autofocus autocomplete required>
                         </div>
                     </div>
                     <div class="my-4">
                         <div>
-                            <label class="block text-gray-700" for="Phonenumber">Phone number</label>
-                            <input type="number" name="Phonenumber" id="Phonenumber" placeholder="Enter Phone number"
+                            <label class="block text-gray-700">Phone number</label>
+                            <input type="number" name="" id="" placeholder="Enter Phone number"
                                 class="w-full px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                 autofocus autocomplete required>
                         </div>
                     </div>
                     <div class="flex justify-between my-4">
                         <div class="w-1/2">
-                            <label class="block text-gray-700" for="password">Password</label>
-                            <input type="password" name="password" id="password" placeholder="Enter Password" minlength="6"
+                            <label class="block text-gray-700">Password</label>
+                            <input type="password" name="" id="" placeholder="Enter Password" minlength="6"
                                 class="w-11/12 px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                 required>
                         </div>
                         <div class="w-1/2 flex flex-col items-end">
-                            <label class="block text-gray-700 w-11/12" for="passwordCnfiramtion">confirm password</label>
-                            <input type="password" name="password_confirmation" id="passwordCnfiramtion" placeholder="Enter Password" minlength="6"
+                            <label class="block text-gray-700 w-11/12">confirm password</label>
+                            <input type="password" name="" id="" placeholder="Enter Password" minlength="6"
                                 class="w-11/12 px-4 py-3 rounded-lg bg-gray-200 mt-2 border focus:border-blue-500 focus:bg-white focus:outline-none"
                                 required>
                         </div>
@@ -62,3 +72,6 @@
             <img src="{{ asset('images/imgSingin.png')}}" alt="" class="w-full h-full object-cover">
         </div>
     </section>
+</body>
+<script src="{{ asset('js/HeaderResposive.js') }}"></script>
+</html>
